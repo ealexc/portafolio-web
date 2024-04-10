@@ -10,7 +10,6 @@ const AboutSection = () => {
             <div className='container'>
                 <div className='row justify-content-center'>
                     <div className='col-md-8 text-center'>
-                        <h3 className='text-start'></h3>
                         <div className="text-start" style={{ borderBottom: '3px dotted white',margin:'5px', }}></div>
                         <p className="text-start fs-lg" style={{fontSize: "1.5rem"}}>
                             Soy estudiante de Ingenería en sistemas computacionales, concluyendo un bootcamp de Desarrollo Web Full Stack.<br /> 
