@@ -26,16 +26,7 @@ function Header() {
                 </h1>
                 <ViewMyWorkBtn />
             </div>
-            <img 
-                className='img-fluid rounded-circle shadow my-5' 
-                src={FotoHeader} 
-                alt="Foto de Alex Chávez" 
-                style={{ 
-                    width: '300px', 
-                    height: '300px', 
-                    objectFit: 'cover',
-                    borderRadius: '50%'
-                }} 
+            
             /> 
         </header>
     );
