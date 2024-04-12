@@ -1,0 +1,53 @@
+@import './variables';
+@import './mixins';
+
+$primary: #FFF7F3;
+
+.App {
+    color:#000000;
+
+    h1, h2, .navbar-brand {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    h1 {
+        font-size: 3rem;
+        
+        @include extraLarge {
+            font-size: 5rem;
+        }
+
+        @include large {
+            font-size: 4rem;
+        }
+    }
+    h2 {
+        font-size: 6rem;
+
+        @include extraLarge{
+            font-size: 4rem;
+        }
+    }
+
+    h3 {
+        font-size: 3rem;
+
+        @include extraLarge {
+            font-size: 2rem;
+        }
+    }
+}
+.card {
+    display: flex;
+    align-items: center;
+    .card-img-top{
+        transition: all 0.3s;
+    }
+        &:hover {
+            cursor: pointer;
+            scale: 1.05;
+            transition: all 0.1s;
+        }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
