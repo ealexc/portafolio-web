@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ViewMyWorkBtn from './ViewMyWorkBtn';
-import FotoHeader from '../assets/images/Foto Edit Alex Nov.jpeg';
+
 import Typed from 'typed.js';
 
 function Header() {
